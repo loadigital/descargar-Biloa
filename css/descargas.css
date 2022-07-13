@@ -72,7 +72,7 @@ header{
     width: 100%;
     font-size: 30px;
     font-family: sans-serif;
-    color: rgb(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
 }
 .co-des h4{
     width: 100%;
@@ -93,7 +93,7 @@ header{
     
 }
 .co-des-a a{
-    background: rgba(95, 0, 0, 0.7);
+    background: rgba(255, 2, 2, 0.7);
 	border-radius: 0.31em;
 	padding: 0.93em 1.87em;
 	color: #fff;
