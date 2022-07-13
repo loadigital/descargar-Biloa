@@ -1,0 +1,173 @@
+* {
+	padding:0;
+    margin:0;
+    border: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a, p{
+    font-family: 'Arial Unicode MS';
+    color: #ffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial;
+    color: #ffff;
+}
+
+body{
+    background: #000000;
+    
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(rgba(0,0,0) 0%, rgba(0,0,0, 0.0) 100%);
+    position: fixed;
+    border: solid 0px #ffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.co-logo{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border: solid 0px #ffff;
+}
+.logo img{
+  width: 100%;
+  max-width: 150px;
+  margin-left: 10px;
+}
+.co-des{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.co-des h6{
+    width: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255, 0.4);
+}
+.co-des h4{
+    width: 100%;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255, 0.7);
+    margin-top: 20px;
+}
+.raya{
+    width: 50%;
+    border-bottom: solid 2px rgb(255, 0, 0, 0.3);
+    
+}
+
+.co-des-a{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.co-des-a a{
+    background: rgba(95, 0, 0, 0.7);
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 20px;
+    text-decoration: none;
+    
+}
+.co-des-a a:hover {
+	background: #fff;
+	color: #000;
+}
+.co-des-p{
+    width: 100%;
+    border: solid 0px #ffff;
+    margin-top: 20px;  
+        
+}
+.co-des-p p{
+    color: rgb(255, 255, 255, 0.4);
+    font-size: 30px;
+        
+}
+.section_2_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 0px #fff;
+    margin-top: 40px;
+    background: linear-gradient(rgba(0,0,0) 0%, rgb(49, 4, 4) 100%);
+}
+.info{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 0px #fff;
+}
+.img_info{
+    width: 100%;
+    padding: 10px;
+}
+.info h1, .info p{
+    color: #fff;
+    width: 100%;
+    margin: 7px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px){
+    .co-des-p p{
+        font-size: 20px;
+            
+    }
+    .co-des-a a{
+        font-size: 14px;
+    }
+    .co-des h4{
+        font-size: 20px;
+    }
+    .co-des h6{
+        font-size: 20px;
+    }
+    
+    .logo img{
+        width: 100%;
+        max-width: 100px;
+        
+      }
+
+}
