@@ -36,6 +36,9 @@ const portadaIndex = data =>{
     	
      ">
      <div class="co-des">
+     <div class="regist">
+            <button class="button-1" id="button-1" onclick="button1()">SUSCRÍBETE</button>
+     </div>
      <h6>LAS SERIES Y PELÍCULAS DE LAS QUE TODO EL MUNDO HABLA</h6>
      <h4>SOLO PARA TI</h4>
      <div class="raya"></div>
@@ -54,3 +57,12 @@ const portadaIndex = data =>{
     fragment.appendChild(clone);    
     porIndex.appendChild(fragment);
 };
+
+const flechaF = document.getElementById("flecha-f");
+flechaF.addEventListener("click", function(){
+    document.getElementById("modal-formulario").style.bottom= "-100%";
+})
+
+function button1() {
+    document.getElementById("modal-formulario").style.bottom= "0";
+}
