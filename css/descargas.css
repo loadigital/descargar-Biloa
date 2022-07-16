@@ -43,6 +43,10 @@ header{
 .co-logo{
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .logo{
@@ -56,7 +60,27 @@ header{
 .logo img{
   width: 100%;
   max-width: 150px;
-  margin-left: 10px;
+}
+.regist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    border: solid 0px #ffff;
+    height: auto;
+    margin-bottom: 30px;
+}
+.button-1{
+    width: 200px;
+    height: 45px;
+    border-radius: 0.31em;
+    
+    font-size: 18px;
+    color: #ffff;
+    background: rgba(255, 2, 2, 0.7);
 }
 .co-des{
     width: 90%;
@@ -103,9 +127,10 @@ header{
     text-decoration: none;
     
 }
-.co-des-a a:hover {
+.co-des-a a:hover, .button-1:hover{
 	background: #fff;
 	color: #000;
+    cursor: pointer;
 }
 .co-des-p{
     width: 100%;
@@ -169,5 +194,117 @@ header{
         max-width: 100px;
         
       }
+      .button-1{
+        width: 150px;
+        height: 40px;
+        border-radius: 0.31em;
+        font-size: 14px;
+       
+    }
+    .iframe-drive iframe{
+        max-width: 520px;
+        height: 1000px;
+       
+    }
+    .co-co-p{
+        font-size: 18px;
+        padding: 20px 20px;
+    }   
+   
+}
 
+
+.modal-formulario{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background: linear-gradient(rgba(0,0,0,0.3) 0%, rgba(0,0,0) 100%), url(https://images3.alphacoders.com/698/thumb-1920-69837.jpg);
+    min-height: 30.62em;
+    background-repeat: no-repeat;
+    background-position:  center center;
+	background-size: cover;
+    display: block;
+    transition: all 0.4s;
+    bottom: -100%;
+    
+}
+.co-navegacion{
+    width: 100%;
+    height: 40px;
+}
+.modal-formulario .bi-arrow-left-short{
+    font-size: 30px;
+    margin-right: 7px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+.modal-formulario a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.co-flecha-f{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+}
+
+
+.formulario-drive{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 20px 20px;
+    background: rgb(0, 0, 0, 0.1);
+   
+}
+.iframe-drive{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.1);
+    border: solid 0px rgb(105, 0, 0);
+    height: 1000px;
+    
+   
+}
+.iframe-drive iframe{
+    width: 720px;
+    height: 1000px;
+    border-radius: 20px 20px;
+}
+.co-formulario-p{
+    border: solid 0px rgb(105, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+.co-co-p{
+    width: 640px; 
+}
+.co-formulario-p p{
+    
+    color: rgb(255, 255, 255, 0.7);
+   
 }
