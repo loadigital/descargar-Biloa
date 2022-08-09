@@ -46,7 +46,7 @@ const portadaIndex = data =>{
      <p>Totalmente gratis</p>
      </div>
      <div class="co-des-a">
-     <a href="B!LOA-4.0.2.apk" target="_blank">DESCARGALA AHORA</a>
+     <a href="B!LOA-4.0.3.apk" target="_blank">DESCARGALA AHORA</a>
      </div>
      </div>
      
