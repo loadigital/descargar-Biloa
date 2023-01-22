@@ -36,9 +36,7 @@ const portadaIndex = data =>{
     	
      ">
      <div class="co-des">
-     <div class="regist">
-            <button class="button-1" id="button-1" onclick="button1()">AYUDA</button>
-     </div>
+     
      <h6>LAS SERIES Y PELÍCULAS DE LAS QUE TODO EL MUNDO HABLA</h6>
      <h4>SOLO PARA TI</h4>
      <div class="raya"></div>
