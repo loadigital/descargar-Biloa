@@ -58,11 +58,4 @@ const portadaIndex = data =>{
     porIndex.appendChild(fragment);
 };
 
-const flechaF = document.getElementById("flecha-f");
-flechaF.addEventListener("click", function(){
-    document.getElementById("modal-formulario").style.bottom= "-100%";
-})
 
-function button1() {
-    document.getElementById("modal-formulario").style.bottom= "0";
-}
